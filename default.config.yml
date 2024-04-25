@@ -29,6 +29,7 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Source/github.com/i1skn/dotfiles
 dotfiles_files:
   - .zshrc
+  - .fzf.zsh
   - .gitignore
   - .inputrc
   - .osx
@@ -43,6 +44,7 @@ homebrew_installed_packages:
   # - gifsicle
   - git
   # - gh
+  - gnupg2
   - go
   # - gpg
   # - httpie
@@ -67,6 +69,8 @@ homebrew_installed_packages:
   - tig
   - tmux
   - zsh
+  - fzf
+  - cocoapods
   # - zsh-history-substring-search
 
 homebrew_taps: []
